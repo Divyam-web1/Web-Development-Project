@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIVYAM</title>
+    <link rel="stylesheet" href="home_style.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<header>
+    <div class="logo">  
+        <h1 id="main_logo">DIVYAM</h1>
+        <h2 id="sub_logo">the Cinema Hub</h2>
+    </div>
+
+    <div class="navbar">
+        
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="top_rated.html">Top Rated</a></li>
+            <li><a href="latest.html">Latest</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+</header>
+<body>
+    <section class="title_vala_bhaag">
+        <h1 >Light, Camera, Action !</h1>
+        <p>The Cinema is between Art and Life!</p>
+    </section>
+    <section class="image-row">
+        <div class="image">
+            <a href="https://www.youtube.com/watch?v=L9yZtdRy5JA"><img src="image1.jpg" alt="image1"></a>
+            <h4>Suffer: A Journey Through Life</h4>
+        </div>
+    
+        <div class="image">
+            <a href="https://www.youtube.com/watch?v=PEOL9RxhjsY"><img src="image2.jpg" alt="image2"></a>
+            <h4>Mujhe Jeena Hai</h4>
+        </div>
+    
+        <div class="image">
+            <a href="https://www.youtube.com/watch?v=mla4oQcZ8yE"><img src="image3.jpg" alt="image3"></a>
+            <h4>IAS GOVIND - The Man Who Changed the Background</h4>
+        </div>
+    
+        <div class="image">
+            <a href="https://www.youtube.com/watch?v=QDfyZGXCEcM"><img src="image4.jpg" alt="image4"></a>
+            <h4>The Job</h4>
+        </div>
+    
+        <div class="image">
+            <a href="https://www.youtube.com/watch?v=bgtU-o8uA-4"><img src="image5.jpg" alt="image5"></a>
+            <h4>Mumbai Everyday</h4>
+        </div>
+    
+        <div class="image">
+            <a href="https://www.youtube.com/watch?v=mla4oQcZ8yE"><img src="image6.jpg" alt="image6"></a>
+            <h4>IAS GOVIND - The Man Who Changed the Background</h4>
+        </div>
+    
+        <div class="image">
+            <a href="https://www.youtube.com/watch?v=domCDwp5u3I"><img src="image7.jpg" alt="image7"></a>
+            <h4>Never Give Up</h4>
+        </div>
+    
+        <div class="image">
+            <a href="https://www.youtube.com/watch?v=1P3ZgLOy-w8"><img src="image8.jpg" alt="image8"></a>
+            <h4>HOPE (2020)</h4>
+        </div>
+    
+        <div class="image">
+            <a href="https://www.youtube.com/watch?v=e9dZQelULDk"><img src="image9.jpg" alt="image9"></a>
+            <h4>Happiness</h4>
+        </div>
+    </section>
+    
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-column">
+            <h4>About</h4>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+             <h4>Support</h4>
+            <ul>
+                <li><a href="contact.html">Help Center</a></li>
+                <li><a href="Terms.html">Terms of Use</a></li>
+                <li><a href="Terms.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Connect</h4>
+            <ul>
+                <li><a href="https://www.instagram.com/iam_divyam_/">Facebook</a></li>
+                <li><a href="https://twitter.com/iam_divyam_">Twitter</a></li>
+                <li><a href="https://www.instagram.com/iam_divyam_/">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; All Rights Reserved || Designed by Divya Prajapati</p>
+    </div>
+</footer>
+
+<script>
+    
+    const backgroundImages = [
+        'background_image_1.jpg',
+        'background_image_2.jpg',
+        'background_image_3.jpg'
+    ];
+    
+    let currentIndex = 0;
+    
+    function changeBackground() {
+        document.body.style.backgroundImage = `url(${backgroundImages[currentIndex]})`;
+        currentIndex = (currentIndex + 1) % backgroundImages.length;
+    }
+    
+    setInterval(changeBackground, 4000);
+    
+</script>
+
+</html>

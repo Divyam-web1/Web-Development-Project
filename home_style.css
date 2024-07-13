@@ -1,0 +1,59 @@
+.title_vala_bhaag {
+    text-align: center;
+    color: #fff;
+}
+
+.title_vala_bhaag h1{
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    background-color:#000000d8;
+    padding: 10px 0px;
+    text-shadow: 2px 2px 2px #ff0000
+    
+}
+
+.title_vala_bhaag p{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000000
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+    text-align: center;
+    color: #fff;    
+    font-family: 'Lucida Sans';
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.image {
+    flex: 1;
+    background-color: #000000d8;
+    border-radius: 10%;
+    padding: 10px;
+    min-width: 250px;
+    max-width: 200px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.image:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+    color: red;
+}

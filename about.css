@@ -1,0 +1,36 @@
+
+
+
+.about-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+    margin-bottom: 20px
+}
+
+.container-about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.about-image img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.about-text p {
+    margin-bottom: 20px;
+}

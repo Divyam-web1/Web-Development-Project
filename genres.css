@@ -1,0 +1,39 @@
+.genres-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container-genres {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container-genres h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.genres-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.genre {
+    margin: 20px;
+    text-align: center;
+}
+
+.genre img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.genre h3 {
+    margin: 0;
+}
